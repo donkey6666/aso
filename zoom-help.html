@@ -1,0 +1,104 @@
+<h2>Zoommap</h2>
+<p>
+    Darstellung der kompletten Map in einem eigenen Fenster mit zoomfähigen Koordinatengitter zur genauen Positionsbestimmung von Basen und Schiffsgruppen.<br>
+    Der Ausschnitt kann mit der linken Maustaste verschoben werden und mit dem Scrollrad vergrößert/verkleinert werden.<br>
+    Wenn Schiffe schießen wird das durch einen roten Pfeil angezeigt.&nbsp;Der Pfeil ist blau wenn Schiffe der eigenen Allianz schießen.
+</p>
+<h3>Cont. update</h3>
+<p>
+    The time&nbsp;(in milliseconds)&nbsp;how often the zoom window is synchronized with the browser.&nbsp;Default value is 666.&nbsp;Allowed values:&nbsp;50...999.<br>
+    Your sweet spot value can be saved for the future.&nbsp;Type 0 and save it if you want to go back to the dafault value.
+</p>
+
+<h3>Basenstärke</h3>
+<p>
+    Zeigt die Basen in der Map mit einem Geschützstärke-Indikator an.&nbsp;Je dunkler,&nbsp;desto stärker die Geschütze der Basen.
+</p>
+
+<h3>Sichtweite</h3>
+<p>
+    Zeigt die Sichtweite der Basen&nbsp;(auch Radar)&nbsp;des Gegners an.<br>
+    Mit der Dropdownlist kann eine Allianz ausgewählt werden,&nbsp;um die Sichtweite einer Einzelallianz oder aller Gegner-Allianzen anzuzeigen.
+</p>
+
+<h3>Control</h3>
+<h4>none</h4>
+<p>
+    Im Zoom-Fenster wird die komplette Map nur angezeigt.&nbsp;Es erfolgt keine Änderung der Steuerungsoptionen im Spiel.
+</p>
+<h4>game</h4>
+<p>
+    Für Spieler mit 2 Bildschirmen.&nbsp;Die Maus-Position wird in der Zoommap mit den Koordinaten-Achsen mitgeführt.&nbsp;Die Steuerung erfolgt im Hauptschirm.
+</p>
+<h4>zoom</h4>
+<p>
+    Für Spieler mit 1 oder 2 Bildschirmen.&nbsp;Die komplette Steuerung des Spieles kann über die Zoommap erfolgen. 
+    Schiffsgruppen können über eine ‚Bereichsauswahl‘ in der Map ausgewählt werden,
+    <br />
+    - oder alternativ über folgende Tasten :
+</p>
+<ul>
+    <li>Pos1&nbsp;-&nbsp;wählt alle Schiffe</li>
+    <li>0&nbsp;-&nbsp;wählt alle Schiffe ab</li>
+    <li>1&nbsp;-&nbsp;wählt das mit 1 im Infofenster oben angegebene Schiff.</li>
+    <li>2&nbsp;-&nbsp;wählt das mit 2 im Infofenster oben angegebene Schiff.</li>
+    <li>3&nbsp;-&nbsp;...</li>
+    <li>...</li>
+</ul>
+
+<p>Andere Tasten:</p>
+<ul>
+    <li>s&nbsp;-&nbsp;Synchronisiert AC mit der Position in der Zoommap.</li>
+    <li>PgUp&nbsp;-&nbsp;Alle meine Schiffe blinken.</li>
+    <li>Pos1&nbsp;-&nbsp;Alle meine Schiffe werden ausgewählt.</li>
+    <li>Ende&nbsp;-&nbsp;Alle ausgewählten Schiffe halten an.</li>
+    <li>p&nbsp;-&nbsp;Screenshot erstellen.</li>
+</ul>
+
+<p>Spezielle Tasten beim Angriff auf fremde Einheiten&nbsp;(im Versuchs-Stadium).
+<br />
+Beim Anklicken einer Fremden Einheit&nbsp;(Angriff)&nbsp;wird durch gleichzeitiges drücken folgender Tasten das Verhalten beeinflusst:</p>
+<ul>
+    <li>shift&nbsp;-&nbsp;NOCH NICHT AKTIV.&nbsp;Zum Snipen.&nbsp;Nach dem Angriffsbefehl wird die angreifende Einheit optimal positioniert.</li>
+    <li>Strg&nbsp;-&nbsp;Ungefähr.&nbsp;Die anzugreifende Einheit muss nicht punktgenau mit der Maus getroffen werden.&nbsp;Es wird die Einheit,&nbsp;im Umkreis von 10 Punkten,&nbsp;attackiert die der Mausposition am nächsten ist.</li>
+    <li>Alt&nbsp;- Verfolgung.&nbsp;Die angegriffene Einheit wird,&nbsp;nach dem ersten Schuss verfolgt. 
+        Dafür wird ein Vektor vom Angreifer zur angegriffenen Einheit gebildet und dieser um 3 Punkte verlängert.
+        Die Verfolgung kann abgebrochen werden in dem die verfolgenden Einheiten neu positioniert werden.
+    </li>
+</ul>
+
+<p>Markierungen:<p>
+<ul>
+    <li>m&nbsp;-&nbsp;Setzt eine Markierung an die aktuelle Position.</li>
+    <li>shift + m&nbsp;-&nbsp;Löscht die Markierung wenn sich die Maus genau an der Position des Lesezeichens befindet.</li>
+</ul>
+
+<h3>Flugzonen</h3>
+<p>
+    Zeigt die Flugzonen an,&nbsp;die mit den jeweiligen Schiffstypen durchflogen werden können.&nbsp;Auch Detektorschiffe werden berücksichtigt&nbsp;(Avelabat und Detektor).
+</p>
+
+<h3>Ziele suchen</h3>
+<p>
+    Für den gewählten Schiffstyp werden mögliche Ziele durch blaue Positionspunkte markiert. 
+    Die blauen Punkte markieren dabei die Angriffspositionen,&nbsp;von denen Verlustfrei geschossen werden kann.
+</p>
+
+<h3>Screenshot</h3>
+<p>
+    <strong>So machen Sie einen Screenshot:</strong><br>
+    • Klicken Sie auf den Screenshot-Button oder drücken Sie die Taste <strong>P</strong><br>
+    • Im Druckdialog wählen Sie <strong>"Als PDF speichern"</strong> oder <strong>"In Google Drive speichern"</strong><br>
+    • So erhalten Sie eine vollständige Aufnahme des gesamten Fensters inklusive aller Menüs<br>
+    • Alternativ können Sie das Betriebssystem-Tool verwenden: <strong>Win+Shift+S</strong> (Windows) oder <strong>Cmd+Shift+4</strong> (Mac)
+</p>
+
+<h3>Einheiten suchen</h3>
+<p>
+    Es können Einheiten für eine Allianz,&nbsp;einen Spieler,&nbsp;einen Schiffstyp oder einer Kombination gesucht werden.
+    Die Listen schränken sich gegenseitig ein,&nbsp;so das Beispielsweise erkennbar ist,&nbsp;welche Spieler den ausgewählten Schiffstyp auf der Map haben.
+</p>
+
+<p>
+    In der Zoommap werden beim Maus-Over Detail-Informationen in einer Bubble angezeigt und bei einem Maus-Klick in die Infobox übertragen.
+</p>
